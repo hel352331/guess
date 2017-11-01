@@ -1,5 +1,5 @@
 var number = 5;
-var times = 0;
+var times = 1;
 var guess_number;
 while (guess_number!=number){
   guess_number = +prompt("Guess number from 1 to 100");
@@ -9,9 +9,9 @@ while (guess_number!=number){
     }else {
       var more_less = guess_number > number ? 'MORE ' : 'LESS ';
       alert ('You input number ' + more_less + 'then mine');
-      times ++;
+      times++;
     }
   } else {
     alert('Input correct number');
-    }
   }
+}
